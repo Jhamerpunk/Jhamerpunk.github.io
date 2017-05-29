@@ -50,15 +50,26 @@ h1 {letter-spacing: 6px}
 <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
   <h1 class="w3-xlarge tipo">STUDENT</h1>
   <h1 class="nombre">Jamer Helbert Tafur Guevara</h1>
-  
-  <div class="w3-padding-32">
+  <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+  <!-- <div class="w3-padding-32">
     <div class="w3-bar w3-border">
       <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
       <a href="#bandas" class="w3-bar-item w3-button">Bandas</a>
       <a href="#cajamarca" class="w3-bar-item w3-button">Cajamarca</a>
       <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
     </div>
-  </div>
+  </div>-->
 </header>
 
 <img src="../img/music.jpg" alt="Ocean" class="w3-image" width="1500" height="500">
