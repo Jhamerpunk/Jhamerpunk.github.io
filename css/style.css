@@ -26,7 +26,7 @@ h1 {letter-spacing: 6px}
 /*Social Bar*/
 .social{
 	position: rigth;
-	rigth:0;
+	float: right;	
 	top:200px;
 	z-index: 4;
 }
