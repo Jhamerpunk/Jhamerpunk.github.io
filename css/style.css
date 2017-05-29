@@ -27,7 +27,6 @@ h1 {letter-spacing: 6px}
 .social{
 	position: fixed;
 	float: right;	
-	top:0px;
 	z-index: 4;
 }
 
