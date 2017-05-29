@@ -1,5 +1,7 @@
 @CHARSET "UTF-8";
 
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
 *{
 	margin:0;
 	padding:0;
@@ -102,4 +104,9 @@ h1 {letter-spacing: 6px}
 
 #contacto{
 	font-family: 'Shadows Into Light', cursive;
+}
+
+
+.font{
+	font-family: 'Bree Serif', serif;
 }
