@@ -62,5 +62,18 @@
 	padding: 10px 30px;
 }
 
+.navegador{
+	width: 24%;
+	float: left;
+}
 
+.seccion{
+	width: 50%;
+	float: left;
+}
+
+.aside{
+	width: 24%;
+	float: left;
+}
 
