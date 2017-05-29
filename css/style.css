@@ -26,7 +26,8 @@ h1 {letter-spacing: 6px}
 /*Social Bar*/
 .social{
 	position: fixed;
-	float: right;	
+	left:0;
+	top:200px;
 	z-index: 4;
 }
 
@@ -64,7 +65,7 @@ h1 {letter-spacing: 6px}
 
 
 .social ul li a:hover{
-	padding: 30px 10px;
+	padding: 10px 30px;
 }
 
 .navegador{
@@ -108,5 +109,5 @@ h1 {letter-spacing: 6px}
 
 .font{
 	font-family: 'Bree Serif', serif;
-	text-align: justify;
+	text-align: ju
 }
