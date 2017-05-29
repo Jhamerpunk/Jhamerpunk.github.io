@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<title>Jamer Helbert Tafur Guevara</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../fonts/style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Metamorphous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 <style>
 body,h1 {font-family: "Raleway", Arial, sans-serif}
 h1 {letter-spacing: 6px}
 .w3-row-padding img {margin-bottom: 12px}
+
+.tipo{
+	font-family: 'Metamorphous', cursive;
+
+}
+
+.nombre{
+	font-family: 'Indie Flower', cursive;
+	
+}
+.lugar{
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.bandas{
+	font-family: 'Dancing Script', cursive;
+}
+
+#contacto{
+	font-family: 'Shadows Into Light', cursive;
+}
 </style>
 <body>
 
@@ -18,81 +48,78 @@ h1 {letter-spacing: 6px}
 
 <!-- Header -->
 <header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-  <h1 class="w3-xlarge">STUDENT</h1>
-  <h1>Jamer Helbert Tafur Guevara</h1>
+  <h1 class="w3-xlarge tipo">STUDENT</h1>
+  <h1 class="nombre">Jamer Helbert Tafur Guevara</h1>
   
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
-      <a href="index.html" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-home"></i> Home</a>
-      <a href="#" class="w3-bar-item w3-button">Portafolio</a>
-      <a href="#" class="w3-bar-item w3-button">Contacto</a>
-      <a href="cajamarca.html" class="w3-bar-item w3-button w3-hide-small">Cajamarca</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+      <a href="#bandas" class="w3-bar-item w3-button">Bandas</a>
+      <a href="#cajamarca" class="w3-bar-item w3-button">Cajamarca</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
     </div>
   </div>
 </header>
 
-<!-- Photo Grid -->
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
-  </div>
+<div id="cuerpo">
+	<nav>
+		<ul class="nav nav-pills nav-stacked">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="#">Menu 1</a></li>
+		  <li><a href="#">Menu 2</a></li>
+		  <li><a href="#">Menu 3</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="container">
+		  <h2>Panels with Contextual Classes</h2>
+		  <div class="panel-group">
+		    <div class="panel panel-default">
+		      <div class="panel-heading">Panel with panel-default class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		
+		    <div class="panel panel-primary">
+		      <div class="panel-heading">Panel with panel-primary class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		
+		    <div class="panel panel-success">
+		      <div class="panel-heading">Panel with panel-success class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		
+		    <div class="panel panel-info">
+		      <div class="panel-heading">Panel with panel-info class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		
+		    <div class="panel panel-warning">
+		      <div class="panel-heading">Panel with panel-warning class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		
+		    <div class="panel panel-danger">
+		      <div class="panel-heading">Panel with panel-danger class</div>
+		      <div class="panel-body">Panel Content</div>
+		    </div>
+		  </div>
+		</div>
+	</section>
+	<aside></aside>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-  </div>
-  
-<!-- End Page Content -->
 </div>
+
+<!-- Social bar -->
+	<div class="social">
+		<ul>
+			<li><a href="https://web.facebook.com/jhamerpunk" target="_blank" class="icon-facebook"></a></li>
+			<li><a href="https://twitter.com/JamerTafur" target="_blank" class="icon-twitter"></a></li>
+			<li><a href="https://plus.google.com/u/0/+JamerHelbertTafurGuevaraPanda" target="_blank" class="icon-google"></a></li>
+			<li><a href="#" target="_blank" class="icon-mail"></a></li>
+		</ul>
+	</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
