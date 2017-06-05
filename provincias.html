@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="fonts/style.css">
+<link rel="stylesheet" href="js/javascript.js">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-theme-l1"><i class="fa fa-home"></i></a>
+    <a href="index.html#skills" class="w3-bar-item w3-button">About</a>
+    <a href="index.html#bandas" class="w3-bar-item w3-button">Bandas</a>
+    <a href="provincias.html" class="w3-bar-item w3-button">Provincias</a>
+    <a href="index.html#contacto" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:43px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Provincias</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="cajamarca.html">Cajamarca</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="celendin.html">Celendin</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="chota.html">Chota</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="cutervo.html">Cutervo</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="contumaza.html">Contumazá</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div id="wrapper">
+    <section id="bloque1">
+      <img src="img/escudo.svg" alt="" id="logo"/>
+      <h1 class="h1">Actividades Industriales, Agrícolas y Ganaderas</h1>
+    </section>
+    <section id="bloque2">
+      <p>Cajamarca es uno de los veinticuatro departamentos que, junto con la Provincia Constitucional del Callao, forman la Republica del Perú. Su capital y ciudad más poblada es la homónima Cajamarca. Está ubicado al noroeste del país, limitando al norte con Ecuador, al este con Amazonas, al sur con La Libertad y al oeste con Lambayeque y Piura. Con 1 387 809 habs. en 2007 es el cuarto departamento más poblado —por detrás de Lima, Piura y La Libertad— y con 41,7 hab/km² es el sexto más densamente poblado, por detrás de Lima, Lambayeque, La Libertad, Piura y Tumbes. Fue fundado el 11 de febrero de 1855.</p>
+      <p>Cuenta con diversas cuencas, la mayoría afluentes del río Marañón; y otras que desembocan al Océano Pacífico; llegando también a cubrir pequeñas porciones de costa en la parte más occidental de la provincia de Contumazá.</p>
+    </section>
+    <section id="bloque4">
+      <h2 class="h2">Visite Cajamarca, y disfrute de sus grandiosos Paisajes y Lugares Turísticos</h2>
+    </section>
+  </div>
+
+
+<!-- Social bar -->
+  <div class="social">
+    <ul>
+      <li><a href="https://web.facebook.com/jhamerpunk" target="_blank" class="icon-facebook"></a></li>
+      <li><a href="https://twitter.com/JamerTafur" target="_blank" class="icon-twitter"></a></li>
+      <li><a href="https://plus.google.com/u/0/+JamerHelbertTafurGuevaraPanda" target="_blank" class="icon-google"></a></li>
+      <li><a href="#" target="_blank" class="icon-mail"></a></li>
+    </ul>
+  </div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
+  <a href="https://web.facebook.com/jhamerpunk"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/JamerTafur"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://plus.google.com/u/0/+JamerHelbertTafurGuevaraPanda"><i class="fa fa-google-plus w3-hover-opacity"></i></a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
