@@ -30,9 +30,12 @@ h1 {letter-spacing: 6px}
 .icon{
 	width:200px;
 	heigth: 200px;
-	
 }
 
+.icon img{
+	width:100%;
+	heigth: 100%;
+}
 
 /*Social Bar*/
 .social{
