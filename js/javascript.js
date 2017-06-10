@@ -1,15 +1,41 @@
-function pageload() {
-	var ok = document.getElementById("icon01");
-	ok.onclick = okayClick;
-}
+var mySidebar,overlayBg;
+(function() {
+	window.onload = function() {
+		var ok = document.getElementById("icon01");
+		ok.onclick = okayClick;
+	}
+	
+	var alert = function() {
+		alert("booyah");
+	}
+	
+	var pokeballImg = function() {
+		document.getElementById("icon01");
+		pokeballImg.src = "../img/master.png";
+	}
+	
+	// Get the Sidebar
+	mySidebar = document.getElementById("mySidebar");
 
-function okayClick() {
-	alert("booyah");
-}
+	// Get the DIV with overlay effect
+	overlayBg = document.getElementById("myOverlay");
 
-window.onload = pageLoad;
+	// Toggle between showing and hiding the sidebar, and add overlay effect
+	function w3_open() {
+	    if (mySidebar.style.display === 'block') {
+	        mySidebar.style.display = 'none';
+	        overlayBg.style.display = "none";
+	    } else {
+	        mySidebar.style.display = 'block';
+	        overlayBg.style.display = "block";
+	    }
+	}
 
-function changeImage() {
-	var pokeballImg = document.getElementById("icon01");
-	pokeballImg.src = "../img/master.png";
-}
+	// Close the sidebar with the close button
+	function w3_close() {
+	    mySidebar.style.display = "none";
+	    overlayBg.style.display = "none";
+	}
+	
+
+})();
