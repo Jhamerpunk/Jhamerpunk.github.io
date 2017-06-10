@@ -1,9 +1,6 @@
 var mySidebar,overlayBg;
 (function() {
-	window.onload = function() {
-		var ok = document.getElementById("icon01");
-		ok.onclick = okayClick;
-	}
+
 	
 	var alert = function() {
 		alert("booyah");
