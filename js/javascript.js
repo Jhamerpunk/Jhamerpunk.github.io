@@ -1,4 +1,4 @@
-var mySidebar,overlayBg;
+
 (function() {
 
 	
@@ -6,16 +6,17 @@ var mySidebar,overlayBg;
 		alert("booyah");
 	}
 	
-	var pokeballImg = function() {
-		document.getElementById("icon01");
-		pokeballImg.src = "../img/master.png";
+	function changeImage() {
+		var pokeballImg = document.getElementById("icon01");
+		pokeballImg.src = "images/mystery.gif";
 	}
+
 	
 	// Get the Sidebar
-	mySidebar = document.getElementById("mySidebar");
+	var mySidebar = document.getElementById("mySidebar");
 
 	// Get the DIV with overlay effect
-	overlayBg = document.getElementById("myOverlay");
+	var overlayBg = document.getElementById("myOverlay");
 
 	// Toggle between showing and hiding the sidebar, and add overlay effect
 	function w3_open() {
