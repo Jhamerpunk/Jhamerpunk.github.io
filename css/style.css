@@ -157,6 +157,10 @@ section{
 	width: 100% !important;
 }
 
+img, frame{
+	width:100%;
+}
+
 #bloque1{
 	background-image: url(../img/plaza.png);
 }
