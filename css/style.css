@@ -25,6 +25,16 @@ h1 {letter-spacing: 6px}
 	background: Light Gray;
 }
 
+/*Container*/
+
+.w3-container{
+	text-align: justify;
+}
+
+.w3-container blockquote{
+	margin: auto auto 5px 15px;
+}
+
 /*pokeball*/
 
 .icon{
