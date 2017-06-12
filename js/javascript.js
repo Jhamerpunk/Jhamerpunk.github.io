@@ -1,11 +1,3 @@
-
-(function() {
-
-	
-	var alert = function() {
-		alert("booyah");
-	}
-	
 	function changeImage() {
 		var pokeballImg = document.getElementById("icon01");
 		pokeballImg.src = "images/mystery.gif";
@@ -27,5 +19,3 @@
 	    document.getElementById("mySidebar").style.display = "none";
 	    document.getElementById("myOverlay").style.display = "none";
 	};
-
-})();
